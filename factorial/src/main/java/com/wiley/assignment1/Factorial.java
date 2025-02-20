@@ -36,9 +36,9 @@ public class Factorial {
 		//YOUR CODE STARTS HERE
 
 		if (this.scanner.hasNextInt()) {
-			num = this.scanner.nextInt();
-			if (num > 0 && num <= 10) {
-				return num;
+			this.num = this.scanner.nextInt();
+			if (this.num > 0 && this.num <= 10) {
+				return this.num;
 			}
 		}
 
